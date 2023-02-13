@@ -7,7 +7,11 @@ function hashcode(userId, password) {
     obj[userId] = id2;
     return console.log(obj);
 }
+
 hashcode("Daiveek", "rameshsharma");
 
 // In the terminal : node hashCode.js >> hashcode
+hashcode("Doulat", "doulat123");
+
+// In the terminal : node hashcode.js >> hashcode
 // which means the append the output into the file
