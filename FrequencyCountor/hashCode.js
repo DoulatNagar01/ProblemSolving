@@ -9,9 +9,7 @@ function hashcode(userId, password) {
 }
 
 hashcode("Daiveek", "rameshsharma");
-
-// In the terminal : node hashCode.js >> hashcode
 hashcode("Doulat", "doulat123");
 
-// In the terminal : node hashcode.js >> hashcode
+// In the terminal : node hashCode.js >> hashcode
 // which means the append the output into the file
