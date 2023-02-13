@@ -16,3 +16,16 @@
 //     console.log(newarr,count);
 // }
 // removeEle([1,2,5,5,3],5);
+
+// without using push and NewArray
+
+const arr = [1, 3, 3, 5, 5, 5, 7];
+const n = arr.length;
+const countUniqueValues = (arr) => {
+  const counts = {};
+  for (let i = 0; i < n; i++) {
+    counts[arr[i]] = counts[arr[i]] || 0;
+  }
+  return counts;
+};
+console.log(countUniqueValues(arr));
